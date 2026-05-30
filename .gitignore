@@ -1,0 +1,42 @@
+# Node / Frontend Dependency & Build folders
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+.eslintcache
+
+# Deep Learning Models (Avoid pushing heavy 95MB binary files to git)
+Model/Leaf_disease_Prediction.h5
+Model/
+
+# Python Cache & Environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.env
+.venv
+pip-wheel-metadata/
+
+# OS / Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Local system cache or tool logs
+.gemini/
+.antigravity/
+.system_generated/
+walkthrough.md
+task.md
+implementation_plan.md
